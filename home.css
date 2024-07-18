@@ -1,0 +1,572 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('C:\Users\91638\Desktop\mental health website\Homepage Mental Health\background images.jpg');
+  }
+  
+  main {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  /* background-image: url('C:\Users\91638\Desktop\mental health website\Homepage Mental Health\background images.jpg'); */
+  
+  
+  .navbar {
+  width: 100%;
+  background-color: #4c6bd8;
+  overflow: auto;
+  }
+  
+  .navbar a {
+  float: right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  .navbar a:hover {
+  background-color: #ed0a0a;
+  }
+  
+  .active {
+  background-color: #de291500;
+  }
+  
+  @media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  }
+  form {
+    background-image: url('https://media.istockphoto.com/id/1189143194/photo/i-just-wanna-celebrate-life.jpg?s=612x612&w=0&k=20&c=bnIyTY2FQfjbyvGsR1hXHl5qSY9cNakGTZvxnrfy1tM=');
+    height: 600px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    /* background-position: 0%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  marquee {
+  font-size: 30px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  h2 {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  /* background-color: cornsilk; */
+  }
+  h5 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+  }
+  @keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+  }
+  
+  .button1 {
+    background-color: rgb(22, 247, 236); 
+    color: black; 
+    border: 2px solid #0acdf0;
+  }
+  
+  .button1:hover {
+    background-color: #f30707;
+    color: white;
+  }
+  main {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 50px;
+    color: red;
+    /* font-family: cursive; */
+  
+  }
+  h3 {
+    font-size: 30px;
+    font-family: cursive;
+    color: blue;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .table-container {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .table-item {
+    border: 1px solid rgb(184, 171, 171);
+    display: flex;
+    border-radius: 10px;
+    margin: 20px 10px;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    /* background-image: url('https://www.clinicaladvisor.com/wp-content/uploads/sites/11/2020/08/woman.anxiety.attack_G_1155214538-860x573.jpg'); */
+  }
+  
+  .table-item:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+  }
+  
+  .table-item img {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .price {
+    color: #fff;
+    background-color: #1b263c;
+    padding: 10px;
+    display: none;
+    transition: all 0.4s;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading {
+    margin: 10px;
+  }
+  
+  .plan {
+    color: #737373;
+  }
+  
+  article {
+    text-align: center;
+    margin: 20px 8px;
+  }
+  
+  button {
+    width: auto;
+    background-color: #1b263c;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+  }
+  
+  button:hover {
+    width: 100%;
+  }
+  
+  .table-item:hover .price {
+    display: block;
+    transition: all 0.4s;
+  }
+  
+  /* next model */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .images {
+    display: flex;
+  }
+  
+  .image-item {
+    width: 150px;
+    height: 400px;
+    background-image: url("https://img.freepik.com/premium-photo/aggressive-man-beating-woman-room_218381-3967.jpg?w=360");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .image-item:nth-child(2) {
+    background-image: url("https://ct.counseling.org/wp-content/uploads/2014/06/Little-girl_branding.jpg");
+  }
+  
+  .image-item:nth-child(3) {
+    background-image: url("https://talkwithjon.com/wp-content/uploads/2020/11/single-childless-e1605770884563.jpg");
+  }
+  
+  .image-item:nth-child(4) {
+    background-image: url("https://static.toiimg.com/photo/msid-72957169/72957169.jpg");
+  }
+  
+  .image-item:nth-child(5) {
+    background-image: url("https://static.toiimg.com/thumb/msid-78232752/78232752.jpg?width=500&resizemode=4");
+  }
+  
+  h2 {
+    opacity: 0;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    font-size: 1.1rem;
+    transition: all 0.4s;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .image-item:hover {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .image-item:hover h2 {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    opacity: 1;
+    z-index: 2;
+    transition: all 0.4s;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image-item:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    background-image: linear-gradient(0deg, #e65b00, rgb(255 255 255 / 0%));
+  }
+  
+  /* comment box */
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .main-container {
+    padding: 30px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    display: grid;
+    min-height: 200px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    grid-template-rows: 20px 50px 1fr 50px;
+    box-shadow: 0px 6px 10px rgba(74, 70, 74, 0.414);
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .readMore,
+  .close,
+  .card div {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .card div ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .card div ul li {
+    margin: 0 0.3rem;
+    font-size: 1.1rem;
+  }
+  
+  .desc {
+    color: rgb(66, 59, 59);
+  }
+  
+  .readMore::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: all 0.5s;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .readMore:hover {
+    color: #fff;
+  }
+  
+  .readMore:hover::after {
+    width: 100%;
+  }
+  
+  .close {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card div {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .read-more {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  .card1 {
+    background: #3fbafe;
+  }
+  
+  .card2 {
+    background:#f7a976;
+  }
+  
+  .card3 {
+    background:#b69efe;
+  }
+  
+  .card4 {
+    background: #60efbc;
+  }
+  
+  .card5 {
+    background: #f588d8;
+  }
+  
+  
+  @media (max-width: 1600px) {
+    .cards {
+        justify-content: center;
+    }
+  }
+  
+  /* footer code */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  :root {
+      --text-white: #fff
+  }
+  
+  #footer {
+      background-color: #0060e6;
+      text-align: center;
+      padding: 20px 0;
+  }
+  
+  #footer h2 {
+      font-size: 2rem;
+      color: var(--text-white);
+  }
+  
+  .footer-description {
+      color: var(--text-white);
+      width: 60%;
+      display: block;
+      margin: 20px auto;
+  }
+  
+  .social ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      flex-wrap: wrap;
+  }
+  
+  .social ul li {
+      margin: 10px;
+      border: 1px solid var(--text-white);
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 7px;
+  }
+  
+  .social ul li i {
+      font-size: 1.4rem;
+      color: var(--text-white);
+  }
+  
+  .footer-bottom {
+      display: flex;
+      margin-top: 1rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 10px 20px;
+  }
+  
+  .footer-bottom a {
+      text-decoration: none;
+      color: rgb(23, 23, 137);
+      line-height: 35px;
+  }
+  
+  .right a {
+      text-decoration: none;
+      color: var(--text-white);
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+  
+  @media screen and (max-width: 560px) {
+      .footer-bottom {
+          justify-content: center;
+      }
+  
+      .footer-description {
+          width: 90%;
+      }
+  }
+  
+  
+  /* footer icons */
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container ul {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container ul li {
+    width: 70px;
+    margin: 1rem;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    font-size: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+    border: 1px solid rgb(195, 194, 211);
+  }
+  
+  ul li a {
+    color: rgb(12, 7, 110);
+  }
+  
+  .container ul li:hover {
+    transform: translate(5px, -5px);
+  }
+  
+  .fb:hover i,
+  .fb:hover {
+    color: white;
+    background-color: blue;
+  }
+  
+  .yt:hover i,
+  .yt:hover {
+    color: white;
+    background-color: red;
+  }
+  
+  .insta:hover i,
+  .insta:hover {
+    color: white;
+    background-color: rgb(255, 0, 225);
+  }
+  
+  .github:hover i,
+  .github:hover {
+    color: white;
+    background-color: #272b33;
+  }
+  
+  .twitter:hover i,
+  .twitter:hover {
+    color: white;
+    background-color: #00acee;
+  }
